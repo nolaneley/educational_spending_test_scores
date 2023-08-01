@@ -25,6 +25,8 @@ https://www.nolaneley.com/educational-spending
 - Looked at histograms of data to ensure distributions were somewhat normal and that there were no unexpected values
 - Plotted linear and polynomial regressions to get a sense of relationship between variables
 
+![mathScatter](/images/spending_math.png)
+
 ### Modeling
 I tried both linear and polynomial regression and measured their performance using the mean absolute error (MAE).
 - **Linear regression**: MAE = 4.59 (math), 3.49 (reading)
@@ -34,3 +36,7 @@ I also tested the significance of the correlation of these two variables by calc
 - ***r***: 0.27 (for both math and reading)
 - ***p*-values**: .062 (math), .057 (reading) 
 
+### Choropleth maps
+In addition to histograms and scatter plots, I also created choropleth maps to visualize different metrics on a map of the United States.
+
+![math](/images/math_choropleth.png)
